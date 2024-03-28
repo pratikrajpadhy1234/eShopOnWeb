@@ -6,9 +6,9 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-NAME
-  LOCATION: EastUS
+  LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: Azure Pass - Sponsorship
+  SUBSCRIPTION-ID: 8bcf7fd2-6011-4ca8-8d13-e2e1a0a41d3c
   WEBAPP-NAME: eshoponweb-webapp-Pratik
 
 
